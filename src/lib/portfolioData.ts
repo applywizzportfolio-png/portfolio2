@@ -1,4 +1,4 @@
-import data from './data.json';
+import data from '../../data.json';
 
 // AI_EDITABLE_START
 export const profile = data.profile;
