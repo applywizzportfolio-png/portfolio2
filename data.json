@@ -1,5 +1,5 @@
 {
-  "profile": {
+  "personal": {
     "name": "Raphael Giraud",
     "title": "AI Engineer",
     "handle": "@Raphael.Giraud",
@@ -7,286 +7,123 @@
     "location": "Paris, France",
     "bio": "Hey 👋\nI'm Raph also known as Toukoum. I'm a developer specializing in AI at 42 Paris. I'm working at LightOn AI in Paris. I'm passionate about AI, tech, Entrepreneurship and SaaS tech.",
     "avatar": "/profil-raph.png",
-    "internshipAvatar": "/avatar-raphael.jpg",
-    "email": "raphaelgiraud12@gmail.com",
-    "tags": ["AI", "Developer", "42 Paris", "Sport", "SaaS Builder"]
+    "email": "raphaelgiraud12@gmail.com"
   },
-  "socials": [
-    { "name": "LinkedIn", "url": "https://www.linkedin.com/in/raphael-giraud-60939519a/" },
-    { "name": "Youtube", "url": "https://www.youtube.com/@toukoum" },
-    { "name": "Instagram", "url": "https://www.instagram.com/raphael.giraud/" },
-    { "name": "Discord", "url": "https://discord.com/users/toukoum" },
-    { "name": "Github", "url": "https://github.com/toukoum" },
-    { "name": "X", "url": "https://x.com/toukoumcode" }
-  ],
-  "questions": {
-    "Me": "Who are you? I want to know more about you.",
-    "Projects": "What are your projects? What are you working on right now?",
-    "Skills": "What are your skills? Give me a list of your soft and hard skills.",
-    "Fun": "What’s the craziest thing you’ve ever done? What are your hobbies?",
-    "Contact": "How can I contact you?"
-  },
-  "resume": {
-    "title": "Raphael's Resume",
-    "description": "Full Stack Developer • AI Specialist",
-    "fileType": "PDF",
-    "lastUpdated": "March 2025",
-    "fileSize": "0.5 MB",
-    "previewImage": "/resume_giraud_preview.png",
-    "downloadUrl": "/resume_giraud.pdf"
-  },
-  "skills": [
-    {
-      "category": "Frontend Development",
-      "skills": ["HTML", "CSS", "JavaScript/TypeScript", "Tailwind CSS", "Bootstrap", "Next.js", "React", "Vercel AI SDK", "Gsap"]
-    },
-    {
-      "category": "Backend & Systems",
-      "skills": ["Unix", "C", "C++", "Python", "Typescript", "Git", "GitHub", "Docker", "GCP", "PostgreSQL"]
-    },
-    {
-      "category": "Design & Creative Tools",
-      "skills": ["Figma", "Davinci Code", "Illustrator", "Canva", "Keynote"]
-    },
-    {
-      "category": "Soft Skills",
-      "skills": ["Communication", "Problem-Solving", "Adaptability", "Learning Agility", "Teamwork", "Creativity", "Focus"]
-    },
-    {
-      "category": "AI & Fullstack Engineering",
-      "skills": [
-        "LLM Providers (ChatGPT, Whisper, Groq, Mistral & Claude)",
-        "AI Agents",
-        "Prompt engineering",
-        "Vector databases (Weaviate, Pinecone)",
-        "RAG (Retrieval-Augmented Generation)",
-        "Tool routing & calling",
-        "Hugging Face Transformers",
-        "Vercel AI SDK",
-        "Supabase",
-        "Prisma",
-        "Next.js"
-      ]
-    }
-  ],
-  "internship": {
-    "title": "Internship Application",
-    "duration": "6 months – starting September 2025 (fall 2025)",
-    "location": "Preferably San Francisco 🇺🇸",
-    "techStack": [
-      "Python, Next.js, TypeScript, Tailwind CSS",
-      "Vercel AI SDK, Supabase, Prisma",
-      "OpenAI, Mistral, Claude, Whisper",
-      "Prompt engineering, fine-tuning",
-      "Weaviate, Pinecone, vector DBs",
-      "Hugging Face Transformers",
-      "Tool routing, calling, RAG",
-      "Hackathons + AI agent workflows"
-    ],
-    "experience": "Real-world AI dev experience from Lighton (MCP, secure GPTs, RAG pipelines). 3x hackathon wins (ETH Oxford, Paris Blockchain Week, Colosseum Breakout on Solana). I ship fast, and love building useful things that actually work.",
-    "goal": "Join a bold, innovative team building AI-powered tools that matter. I want to improve fast, contribute hard, and leave a mark. I’m fast, flexible, and HUNGRYYYYY 🔥"
-  },
-  "sports": {
-    "description": "Before focusing on development, I competed at a high level in mountain biking, reaching Top 15 in the Junior World Cup and Top 10 in French Cup. Here are some highlights from my athletic journey.",
-    "highlights": [
-      {
-        "src": "/podium.jpg",
-        "alt": "On the podium after a mountain bike race",
-        "caption": "Celebrating a podium finish 3rd at the famous Roc d'Azur"
-      },
-      {
-        "src": "/levens.JPG",
-        "alt": "Racing in Levens",
-        "caption": "Competing in the mountain bike world cup in Levens with some clean conditions ahah"
-      },
-      {
-        "src": "/marseille.JPG",
-        "alt": "Racing in Marseille",
-        "caption": "Pushing limits at the Marseille World cup"
-      },
-      {
-        "src": "/transmo.JPG",
-        "alt": "Racing in the Transmaurienne",
-        "caption": "On the start line for the Transmaurienne Race in the french Alps"
-      },
-      {
-        "src": "/ploeuc.jpg",
-        "alt": "Racing in the World Cup",
-        "caption": "French championship in Ploeuc"
-      },
-      {
-        "src": "/gueret.jpg",
-        "alt": "Racing in the World Cup",
-        "caption": "World cup in Gueret"
-      }
-    ]
-  },
+  "experience": [],
   "projects": [
     {
-      "category": "Startup Project",
-      "title": "Synto",
-      "src": "/syntopreview.png",
+      "name": "Synto",
       "description": "Synto is an AI-powered interface that transforms complex blockchain interactions into simple, natural language commands. Whether you want to send tokens, stake assets, swap coins, or even create NFTs or liquidity pools, just tell Synto what to do — no manual wallet interactions, no technical jargon. One of my biggest projects yet",
-      "techStack": ["Next.js", "TailwindCSS", "Web3.js", "shadcn-ui", "TypeScript", "Phantom Wallet", "OpenAI API", "Vercel AI SDK", "Solana Agent kit", "Neon", "Prisma"],
-      "date": "2025",
-      "links": [
-        { "name": "website", "url": "https://synto.fun" },
-        { "name": "Launch Video", "url": "https://www.youtube.com/watch?v=4QUE2KgKDUw" },
-        { "name": "X", "url": "https://x.com/chainSynto" },
-        { "name": "Technical Video", "url": "https://www.youtube.com/watch?v=1CjBLKPUwtA&feature=youtu.be" },
-        { "name": "Pitch Deck", "url": "https://drive.google.com/file/d/1B3m44mEgv81rJHfjNfTKi147yX4raQed/view?usp=sharing" },
-        { "name": "Usage tutorial", "url": "https://www.youtube.com/watch?v=PRu1cfvT2bA" }
-      ],
-      "images": [
-        { "src": "/synto1.png", "alt": "Synto landing page" },
-        { "src": "/synto2.png", "alt": "Synto chat interface" },
-        { "src": "/synto3.png", "alt": "Synto chat interface" },
-        { "src": "/synto4.png", "alt": "Synto chat interface" },
-        { "src": "/synto5.png", "alt": "Synto chat interface" },
-        { "src": "/synto6.png", "alt": "Synto chat interface" }
-      ]
+      "tech_stack": ["Next.js", "TailwindCSS", "Web3.js", "shadcn-ui", "TypeScript", "Phantom Wallet", "OpenAI API", "Vercel AI SDK", "Solana Agent kit", "Neon", "Prisma"],
+      "url": "https://synto.fun",
+      "github_url": "",
+      "date": "2025"
     },
     {
-      "category": "Fun Tool",
-      "title": "Rrate",
-      "src": "/ratepreview.png",
+      "name": "Rrate",
       "description": "Rrate is a fun website to allow user to compare his salary with the richest people in the world. Try it now it's online!",
-      "techStack": ["Html", "Css", "Javascript"],
-      "date": "2024",
-      "links": [
-        { "name": "website", "url": "https://rrate.app" },
-        { "name": "github", "url": "https://github.com/toukoum/Rrate" }
-      ],
-      "images": [
-        { "src": "/rrate1.png", "alt": "Rrate landing page" },
-        { "src": "/rrate2.png", "alt": "Rrate comparison page" },
-        { "src": "/rrate3.png", "alt": "Rrate comparison page" }
-      ]
+      "tech_stack": ["Html", "Css", "Javascript"],
+      "url": "https://rrate.app",
+      "github_url": "https://github.com/toukoum/Rrate",
+      "date": "2024"
     },
     {
-      "category": "Hackathon Winner",
-      "title": "Defai",
-      "src": "/defaipreview.png",
-      "description": "We Win ETHOXford hackathon by building DEFAI. DEFAI stands for Decentralized Finance Artificial Intelligence. It's an AI-powered chat interface that simplifies on-chain operations on the Avalanche blockchain by allowing users to interact using natural language. This makes complex DeFi operations accessible even for those with limited technical expertise.",
-      "techStack": ["Next.js", "TailwindCSS", "shadcn-ui", "Vercel AI SDK", "TypeScript"],
-      "date": "2025",
-      "links": [
-        { "name": "website", "url": "https://dorahacks.io/buidl/22605" },
-        { "name": "github", "url": "https://github.com/toukoum/DEFAI" },
-        { "name": "LinkedIn", "url": "https://www.linkedin.com/feed/update/urn:li:activity:7299337190151483392/" },
-        { "name": "Youtube Video", "url": "https://www.youtube.com/watch?v=N9O7los4-ng&t=34s&ab_channel=Toukoum" }
-      ],
-      "images": [
-        { "src": "/defai1.png", "alt": "Landing Page of Defai" },
-        { "src": "/defai2.png", "alt": "Confirmation popup of Defai" },
-        { "src": "/defai3.png", "alt": "Chatbot of Defai" },
-        { "src": "/defai4.jpeg", "alt": "Winner team" }
-      ]
+      "name": "Defai",
+      "description": "We Win ETHOXford hackathon by building DEFAI. DEFAI stands for Decentralized Finance Artificial Intelligence. It's an AI-powered chat interface that simplifies on-chain operations on the Avalanche blockchain by allowing users to interact using natural language.",
+      "tech_stack": ["Next.js", "TailwindCSS", "shadcn-ui", "Vercel AI SDK", "TypeScript"],
+      "url": "https://dorahacks.io/buidl/22605",
+      "github_url": "https://github.com/toukoum/DEFAI",
+      "date": "2025"
     },
     {
-      "category": "Hackathon Winner",
-      "title": "Fitgear",
-      "src": "/fitgearpreview.png",
+      "name": "Fitgear",
       "description": "Won the Gotta Go Hack IA by building Fitgear, a virtual voice seller accessible by QR code to improve the ratio between customers and sellers. Created an AI pipeline with API calls and a RAG system for natural language interactions.",
-      "techStack": ["Next.js", "TailwindCSS", "OpenAI API", "Langchain"],
-      "date": "2024",
-      "links": [
-        { "name": "Linkedin", "url": "https://www.linkedin.com/posts/raphael-giraud-60939519a_hackathon-innovation-sporttech-activity-7210399263774674946-qSXq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC6vwikBVSEkS7XWktWS7y6GR3GHwAlKslc" }
-      ],
-      "images": [
-        { "src": "/fitgear2.png", "alt": "Fitgear chatbot" },
-        { "src": "/fitgear1.png", "alt": "Fitgear landing page" }
-      ]
+      "tech_stack": ["Next.js", "TailwindCSS", "OpenAI API", "Langchain"],
+      "url": "https://www.linkedin.com/posts/raphael-giraud-60939519a_hackathon-innovation-sporttech-activity-7210399263774674946-qSXq",
+      "github_url": "",
+      "date": "2024"
     },
     {
-      "category": "Business Intelligence",
-      "title": "Datai",
-      "src": "/dataipreview.png",
+      "name": "Datai",
       "description": "DATAI is an AI-powered agent that lets non-technical users query a database using natural language without writing SQL. Built using Next.js, TailwindCSS, shadcn-ui, and Anthropic's Claude API, this project focuses on simplicity, speed, and user-friendly design.",
-      "techStack": ["Next.js", "TailwindCSS", "shadcn-ui", "Claude API", "TypeScript"],
-      "date": "2024",
-      "links": [
-        { "name": "GitHub", "url": "https://github.com/toukoum/datai" },
-        { "name": "Youtube Video Demo", "url": "https://youtu.be/iE0RXjdbQsw" }
-      ],
-      "images": [
-        { "src": "/datai1.png", "alt": "Datai landing page" },
-        { "src": "/datai2.png", "alt": "Datai chatbot" },
-        { "src": "/datai3.png", "alt": "Datai chatbot" },
-        { "src": "/datai4.png", "alt": "Datai chatbot" }
-      ]
+      "tech_stack": ["Next.js", "TailwindCSS", "shadcn-ui", "Claude API", "TypeScript"],
+      "url": "https://youtu.be/iE0RXjdbQsw",
+      "github_url": "https://github.com/toukoum/datai",
+      "date": "2024"
     },
     {
-      "category": "42 Project",
-      "title": "3d Pong Game",
-      "src": "/transcendancepreview.png",
-      "description": "Transcendance is the final project of my 42 cursus. It's a 3D pong game with multiplayer capabilities, user authentication, and real-time gameplay. We had to do everything from scratch, so it was pretty challenging and we learned a lot.",
-      "techStack": ["Django", "Python", "JavaScript", "Websockets", "PostgreSQL", "Docker", "Nginx", "Web3", "Solidity"],
-      "date": "2023",
-      "links": [
-        { "name": "GitHub", "url": "https://github.com/toukoum/Transcendance" }
-      ],
-      "images": [
-        { "src": "/trans1.png", "alt": "Transcendance landing page" },
-        { "src": "/trans2.png", "alt": "Transcendance game" },
-        { "src": "/trans3.png", "alt": "Transcendance game" },
-        { "src": "/trans4.png", "alt": "Transcendance game" },
-        { "src": "/trans5.png", "alt": "Transcendance game" },
-        { "src": "/trans6.png", "alt": "Transcendance game" }
-      ]
+      "name": "3d Pong Game",
+      "description": "Transcendance is the final project of my 42 cursus. It's a 3D pong game with multiplayer capabilities, user authentication, and real-time gameplay.",
+      "tech_stack": ["Django", "Python", "JavaScript", "Websockets", "PostgreSQL", "Docker", "Nginx", "Web3", "Solidity"],
+      "url": "",
+      "github_url": "https://github.com/toukoum/Transcendance",
+      "date": "2023"
     },
     {
-      "category": "42 Project",
-      "title": "Minishell",
-      "src": "/minishellpreview.png",
-      "description": "Minishell is a project that aims to create a simple shell. It's a great introduction to process creation and management in C, offering fundamental Unix command-line functionality. This was a very challenging project, but I learned a lot from it.",
-      "techStack": ["C", "Unix", "Bash"],
-      "date": "2023",
-      "links": [
-        { "name": "GitHub", "url": "https://github.com/toukoum/Michelle-42" }
-      ],
-      "images": [
-        { "src": "/minishell1.png", "alt": "Minishell landing page" }
-      ]
+      "name": "Minishell",
+      "description": "Minishell is a project that aims to create a simple shell. It's a great introduction to process creation and management in C, offering fundamental Unix command-line functionality.",
+      "tech_stack": ["C", "Unix", "Bash"],
+      "url": "",
+      "github_url": "https://github.com/toukoum/Michelle-42",
+      "date": "2023"
     },
     {
-      "category": "Automation",
-      "title": "YouBot",
-      "src": "/youbotpreview.png",
+      "name": "YouBot",
       "description": "YouBot is a Python Bot that Scrapes Videos from Pexels, adds a random song from a Songs Folder, then auto-uploads the videos to your YouTube Channel for continuous content generation.",
-      "techStack": ["Python", "YouTube API", "Pexels API"],
-      "date": "2022",
-      "links": [
-        { "name": "YouTube Video", "url": "https://youtu.be/vp1v5mBG7rA " },
-        { "name": "GitHub", "url": "https://github.com/toukoum/YouBot" }
-      ],
-      "images": [
-        { "src": "/youbot1.jpg", "alt": "Youbot landing page" },
-        { "src": "/youbot2.png", "alt": "Youbot chatbot" }
+      "tech_stack": ["Python", "YouTube API", "Pexels API"],
+      "url": "https://youtu.be/vp1v5mBG7rA ",
+      "github_url": "https://github.com/toukoum/YouBot",
+      "date": "2022"
+    },
+    {
+      "name": "Old Portfolio",
+      "description": "My previous traditional portfolio built with vanilla HTML, CSS and JS with GSAP animations for a smooth and interactive user experience.",
+      "tech_stack": ["HTML", "CSS", "JavaScript", "GSAP"],
+      "url": "https://toukoum.github.io/oldPortfolio/",
+      "github_url": "https://github.com/toukoum/portfolio",
+      "date": "2022"
+    }
+  ],
+  "skills": [
+    { "category": "Frontend Development", "items": ["HTML", "CSS", "JavaScript/TypeScript", "Tailwind CSS", "Bootstrap", "Next.js", "React", "Vercel AI SDK", "Gsap"] },
+    { "category": "Backend & Systems", "items": ["Unix", "C", "C++", "Python", "Typescript", "Git", "GitHub", "Docker", "GCP", "PostgreSQL"] },
+    { "category": "Design & Creative Tools", "items": ["Figma", "Davinci Code", "Illustrator", "Canva", "Keynote"] },
+    { "category": "Soft Skills", "items": ["Communication", "Problem-Solving", "Adaptability", "Learning Agility", "Teamwork", "Creativity", "Focus"] },
+    { "category": "AI & Fullstack Engineering", "items": ["LLM", "AI Agents", "Prompt engineering", "Vector databases", "RAG", "Vercel AI SDK", "Supabase", "Prisma", "Next.js"] }
+  ],
+  "education": [],
+  "extras": [
+    {
+      "section_title": "Socials",
+      "items": [
+        { "label": "LinkedIn", "description": "Professional network", "url": "https://www.linkedin.com/in/raphael-giraud-60939519a/", "date": "" },
+        { "label": "Youtube", "description": "Tech content", "url": "https://www.youtube.com/@toukoum", "date": "" },
+        { "label": "Github", "description": "Open source projects", "url": "https://github.com/toukoum", "date": "" }
       ]
     },
     {
-      "category": "Web Development",
-      "title": "Old Portfolio",
-      "src": "/oldportfoliopreview.png",
-      "description": "My previous traditional portfolio built with vanilla HTML, CSS and JS with GSAP animations for a smooth and interactive user experience.",
-      "techStack": ["HTML", "CSS", "JavaScript", "GSAP"],
-      "date": "2022",
-      "links": [
-        { "name": "Website", "url": "https://toukoum.github.io/oldPortfolio/" },
-        { "name": "GitHub", "url": "https://github.com/toukoum/portfolio" }
-      ],
-      "images": [
-        { "src": "/oldport1.png", "alt": "Old Portfolio landing page" },
-        { "src": "/oldport2.png", "alt": "Old Portfolio projects" }
+      "section_title": "Interests & Questions",
+      "items": [
+        { "label": "Who are you?", "description": "I want to know more about you.", "url": "", "date": "" },
+        { "label": "Craziest thing?", "description": "What are your hobbies?", "url": "", "date": "" }
+      ]
+    },
+    {
+      "section_title": "Sports Highlights",
+      "items": [
+        { "label": "Podium Finish", "description": "3rd at Roc d'Azur", "url": "/podium.jpg", "date": "" },
+        { "label": "World Cup Racing", "description": "Competing in World Cup in Levens", "url": "/levens.JPG", "date": "" }
+      ]
+    },
+    {
+      "section_title": "Resume Info",
+      "items": [
+        { "label": "Resume", "description": "Full Stack Developer • AI Specialist", "url": "/resume_giraud.pdf", "date": "Mar 2025" }
       ]
     }
   ],
-  "branding": {
-    "welcomeTitle": "Welcome to AI Portfolio",
-    "welcomeSectionWhat": "What's ????",
-    "welcomeSectionWhy": "Why ???",
-    "welcomeTextWhat": "I'm so excited to present my <strong>brand new AI Portfolio.</strong><br /> Whether you're a recruiter, a friend, family member, or just curious, feel free to ask anything you want!",
-    "welcomeTextWhy": "Traditional portfolios can be limiting. <br /> They can't adapt to every visitor's specific needs. <br /> My portfolio becomes <strong>exactly what you're interested in knowing about me and my work.</strong>"
+  "meta": {
+    "template_id": "portfolio",
+    "version": "1.0"
   }
 }
