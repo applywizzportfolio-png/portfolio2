@@ -79,12 +79,12 @@ const InternshipCard = () => {
             <p className="text-foreground text-sm font-medium">Tech stack</p>
             <div className="text-muted-foreground grid grid-cols-1 gap-y-1 text-sm sm:grid-cols-2">
               <ul className="decoration-none list-disc pl-4">
-                {internship.techStack.slice(0, 4).map((tech, i) => (
+                {internship.techStack.slice(0, 4).map((tech: string, i: number) => (
                   <li key={i}>{tech}</li>
                 ))}
               </ul>
               <ul className="list-disc pl-4">
-                {internship.techStack.slice(4).map((tech, i) => (
+                {internship.techStack.slice(4).map((tech: string, i: number) => (
                   <li key={i}>{tech}</li>
                 ))}
                 <li>

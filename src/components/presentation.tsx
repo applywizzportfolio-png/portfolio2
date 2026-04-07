@@ -95,7 +95,7 @@ export function Presentation() {
             className="mt-4 flex flex-wrap gap-2"
           >
             {profile.tags.map(
-              (tag) => (
+              (tag: string) => (
                 <span
                   key={tag}
                   className="bg-secondary text-secondary-foreground rounded-full px-3 py-1 text-sm"

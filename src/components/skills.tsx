@@ -89,7 +89,7 @@ const Skills = () => {
                   initial="hidden"
                   animate="visible"
                 >
-                  {section.skills.map((skill, idx) => (
+                  {section.skills.map((skill: string, idx: number) => (
                     <motion.div
                       key={idx}
                       variants={badgeVariants}

@@ -31,6 +31,18 @@ export async function POST(req: Request) {
     const { messages } = await req.json();
     console.log('[CHAT-API] Incoming messages:', messages);
 
+    if (!process.env.OPENAI_API_KEY) {
+      return new Response(
+        JSON.stringify({
+          error: "OpenAI API key is missing. Please set the OPENAI_API_KEY environment variable in a .env file.",
+        }),
+        { 
+          status: 500,
+          headers: { 'Content-Type': 'application/json' }
+        }
+      );
+    }
+
     messages.unshift(SYSTEM_PROMPT);
 
     const tools = {

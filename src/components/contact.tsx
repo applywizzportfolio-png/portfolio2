@@ -48,7 +48,7 @@ export function Contact() {
 
           {/* Social Links */}
           <div className="flex flex-wrap gap-x-6 gap-y-5 sm:gap-x-8">
-            {contactInfo.socials.map((social) => (
+            {contactInfo.socials.map((social: any) => (
               <button
                 key={social.name}
                 className="text-muted-foreground hover:text-foreground cursor-pointer text-sm transition-colors"

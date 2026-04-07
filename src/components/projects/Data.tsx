@@ -42,7 +42,7 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
               Technologies
             </h3>
             <div className="flex flex-wrap gap-2">
-              {projectData.techStack.map((tech, index) => (
+              {projectData.techStack.map((tech: string, index: number) => (
                 <span
                   key={index}
                   className="rounded-full bg-neutral-200 px-3 py-1 text-sm text-neutral-800 dark:bg-neutral-800 dark:text-neutral-200"
